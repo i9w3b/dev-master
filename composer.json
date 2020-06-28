@@ -25,7 +25,17 @@
     },
     "autoload": {
         "psr-4": {
-            "I9W3b\\DevMaster\\": "src"
+            "I9w3b\\DevMaster\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "I9w3b\\DevMaster\\DevMasterServiceProvider"
+            ],
+            "aliases": {
+                "DevMaster": "I9w3b\\DevMaster\\Facades\\Menu"
+            }
         }
     },
     "minimum-stability": "dev",
