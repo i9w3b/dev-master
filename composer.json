@@ -1,0 +1,32 @@
+{
+    "name": "i9w3b/dev-master",
+    "description": "Desenvolvimento Laravel",
+    "keywords": [
+        "i9w3b",
+        "dev-master"
+    ],
+    "homepage": "https://github.com/i9w3b/dev-master",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo Sena",
+            "email": "marcelosenaonline@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "barryvdh/laravel-debugbar": "^3.2",
+        "i9w3b/clear-all-cache": "^1.0",
+        "laravel/ui": "^2.0",
+        "laravel/tinker": "^2.0",
+        "spatie/laravel-web-tinker": "^1.7",
+        "laravel/telescope": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "I9W3b\\DevMaster\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
