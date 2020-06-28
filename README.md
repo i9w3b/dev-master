@@ -27,6 +27,26 @@ Execute o seguinte comando:
 composer require i9w3b/dev-master --dev
 ```
 
+Em seguida, você deve publicar os ativos do pacote web-tinker executando os comandos:
+
+```bash
+php artisan web-tinker:install
+php artisan vendor:publish --provider="Spatie\WebTinker\WebTinkerServiceProvider" --tag="config"
+```
+
+Agora irá conseguir acessar a rota http://seu_projeto/tinker
+
+Para configurar o Telescope deve primeiro configurar o arquivo `.env` com as configurações do banco de dados.
+
+Publicando os ativos do pacote Telescope executando os comandos:
+
+```bash
+php artisan telescope:install
+php artisan migrate
+```
+
+Agora irá conseguir acessar a rota http://seu_projeto/telescope
+
 ## Segurança
 
 Caso descubra algum problema relacionado à segurança, envie um e-mail para `marcelosenaonline@gmail.com` em vez de usar o rastreador de problemas.
