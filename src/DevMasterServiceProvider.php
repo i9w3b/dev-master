@@ -4,7 +4,7 @@ namespace I9w3b\DevMaster;
 
 use Illuminate\Support\ServiceProvider;
 
-class DevMasteruServiceProvider extends ServiceProvider
+class DevMasterServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
