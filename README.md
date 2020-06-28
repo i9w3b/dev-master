@@ -27,7 +27,7 @@ Execute o seguinte comando:
 composer require i9w3b/dev-master --dev
 ```
 
-Para criar as visualizações padrão de autenticação caso ainda não tenha execute:
+Para criar as configurações padrão de autenticação caso ainda não tenha execute:
 
 ```bash
 php artisan ui bootstrap --auth
@@ -54,6 +54,26 @@ php artisan migrate
 ```
 
 Agora irá conseguir acessar a rota http://seu_projeto/telescope
+
+Alterar  os comandos:
+
+```bash
+php artisan telescope:install
+php artisan migrate
+```
+
+Subistituir as visualizações (welcome, home) e o layout app.blade.php
+Execute o seguinte comando:
+```bash
+php artisan vendor:publish --tag=devmaster-view
+```
+
+Ou se deseja somente subistituir o layout app.blade.php
+Execute o seguinte comando:
+
+```bash
+php artisan vendor:publish --tag=devmaster-view-layouts
+```
 
 ## Segurança
 
