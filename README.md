@@ -27,6 +27,14 @@ Execute o seguinte comando:
 composer require i9w3b/dev-master --dev
 ```
 
+Para criar as visualizações padrão de autenticação caso ainda não tenha execute:
+
+```bash
+php artisan ui bootstrap --auth
+```
+
+Variações do comando acima (bootstrap, vue, react)
+
 Em seguida, você deve publicar os ativos do pacote web-tinker executando os comandos:
 
 ```bash
