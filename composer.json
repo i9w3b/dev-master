@@ -17,7 +17,7 @@
         "php": "^7.2.5",
         "barryvdh/laravel-debugbar": "^3.2",
         "i9w3b/clear-all-cache": "^1.0",
-	"i9w3b/faker": "dev-master",
+	    "i9w3b/faker": "dev-master",
         "laravel/ui": "^2.0",
         "laravel/tinker": "^2.0",
         "spatie/laravel-web-tinker": "^1.7",
@@ -34,7 +34,7 @@
                 "I9w3b\\DevMaster\\DevMasterServiceProvider"
             ],
             "aliases": {
-                "DevMaster": "I9w3b\\DevMaster\\Facades\\Menu"
+                "DevMaster": "I9w3b\\DevMaster\\DevMasterFacade"
             }
         }
     },
