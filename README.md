@@ -65,14 +65,14 @@ php artisan migrate
 Subistituir as visualizações (welcome, home) e o layout app.blade.php
 Execute o seguinte comando:
 ```bash
-php artisan vendor:publish --tag=devmaster-view
+php artisan vendor:publish --tag=devmaster-view --force
 ```
 
 Ou se deseja somente subistituir o layout app.blade.php
 Execute o seguinte comando:
 
 ```bash
-php artisan vendor:publish --tag=devmaster-view-layouts
+php artisan vendor:publish --tag=devmaster-view-layouts --force
 ```
 
 ## Segurança
