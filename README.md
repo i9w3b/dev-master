@@ -19,6 +19,14 @@ Dependências para automatizar e gerenciar ambiente de desenvolvimento Laravel
 └── README.md
 ```
 
+## Instalação
+
+Execute o seguinte comando:
+
+```bash
+composer require i9w3b/dev-master --dev
+```
+
 ## Segurança
 
 Caso descubra algum problema relacionado à segurança, envie um e-mail para `marcelosenaonline@gmail.com` em vez de usar o rastreador de problemas.
