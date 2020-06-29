@@ -1,5 +1,6 @@
 @php
 $arrayMenu = array(
+    ['name' => 'Rotas/Lista','href' => '/routes'],
     ['name' => 'Telescope','href' => '/telescope'],
     ['name' => 'Tinker','href' => '/tinker'],
     ['name' => 'Dashboard','href' => '/home'],
