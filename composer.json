@@ -19,6 +19,7 @@
         "i9w3b/clear-all-cache": "^1.0",
         "i9w3b/list-routes": "^1.0",
 	"i9w3b/faker": "dev-master",
+        "jn-jairo/laravel-ngrok": "^1.0",
         "laravel/ui": "^2.0",
         "laravel/tinker": "^2.0",
         "spatie/laravel-web-tinker": "^1.7",
