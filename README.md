@@ -16,7 +16,18 @@ Dependências para automatizar e gerenciar ambiente de desenvolvimento Laravel
 ```bash
 ├── composer.json
 ├── LICENSE.md
-└── README.md
+├── README.md
+└── src
+    ├── DevMasterFacade.php
+    ├── DevMaster.php
+    ├── DevMasterServiceProvider.php
+    └── Resources
+        └── views
+            ├── home.blade.php
+            ├── layouts
+            │   ├── app.blade.php
+            │   └── menu.blade.php
+            └── welcome.blade.php
 ```
 
 ## Instalação
@@ -55,15 +66,9 @@ php artisan migrate
 
 Agora irá conseguir acessar a rota http://seu_projeto/telescope
 
-Alterar  os comandos:
-
-```bash
-php artisan telescope:install
-php artisan migrate
-```
-
 Subistituir as visualizações (welcome, home) e o layout app.blade.php
 Execute o seguinte comando:
+
 ```bash
 php artisan vendor:publish --tag=devmaster-view --force
 ```
